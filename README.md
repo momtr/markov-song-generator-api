@@ -2,7 +2,7 @@
 🎶 song generator API using markov chains
 
 ## Example
-<ing src="https://github.com/moritzmitterdorfer/markov-song-generator-api/blob/master/img.png">
+<img src="https://github.com/moritzmitterdorfer/markov-song-generator-api/blob/master/img.png">
 
 ## Install
 ```
