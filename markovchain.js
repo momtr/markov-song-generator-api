@@ -1,9 +1,9 @@
 class MarkovChain {
 
-    constructor(text, options) {
+    constructor(text, type, options) {
         this.text = text.toLowerCase();
         this.ngram = {};
-        this.type = options.type;
+        this.type = type;
         if(this.type == 'ngram') {
             this.order = options.order;
             for(let i = 0; i <= this.text.length - this.order; i++) {
@@ -25,7 +25,7 @@ class MarkovChain {
             }
         } else {
             this.ngram = options.jsonModel;
-            this.jsonType = options.jsonType;
+            this.jsonType = options.type;
         }
     }
 
