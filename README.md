@@ -5,10 +5,22 @@
 <img src="https://github.com/moritzmitterdorfer/markov-song-generator-api/blob/master/img.png">
 
 ## Install
+1. Clone repo
 ```
-npm install
-node server.js
+$ git clone https://github.com/moritzmitterdorfer/markov-song-generator-api.git
 ```
+
+2. Install NPM packages
+```
+$ npm install
+```
+
+3. Start server
+```
+$ npm start
+```
+
+
 If you want to use custom lyrics, place a file (`lyrics.txt`) in `./data`
 
 ## Endpoints
